@@ -1,0 +1,70 @@
+*{
+    font-family: myraid, sans-serif;
+}
+
+body {
+    font-family: gilroy, sans-serif, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    width: 100%;
+    
+}
+
+.ddd {
+    background-color: #023A57; /* Card background color */
+    color: #ffffff; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded corners */
+    margin-top: -160px;
+}
+
+.card-title {
+    font-size: 2rem; /* Title font size */
+}
+
+.services-section .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+}
+.serh2 {
+font-size: 2.5rem;
+background-color: #f8d7da; /* Light pink background for header */
+padding: 10px;
+border-radius: 5px;
+width: 700px;
+margin-top: -70px;
+position: sticky;
+}
+
+.service-areas h2{
+font-weight: bold;
+}
+.service-areas {
+padding: 60px 0;
+font-size: 1.4rem;
+
+}
+.faq-section {
+padding: 60px 0;
+}
+.service-areas .map-image {
+width: 100%;
+height: auto;
+}
+
+
+@media (max-width: 768px) {
+    .serh2 {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .trusted-brands-section img {
+        max-height: 50px;
+    }
+}
